@@ -51,7 +51,10 @@ The topics for this week were about the argument, rules of inference, and method
 I also learned about the methods of proofs such as direct. A direct proof is a proof wherein one should assume that the antecedent, p, in the conditional statement, p → q, as true and then later on, show that q, which is the consequence, is true. 
 
 # Week 4
-In this week, the methods of constructing proofs are continued. Proof by contraposition is done by assuming that ¬q is true and showing that ¬p is also true. Vacuous proof means that ¬p → (p → q) while trivial means that q → (p → q). Another method of proof is the proof by contradiction which is done by assuming that the p and ¬q is true and showing that there is a contradiction.
+In this week, the methods of constructing proofs are continued. Proof by contraposition is done by assuming that ¬q is true and showing that ¬p is also true. Vacuous proof means that ¬p → (p → q) while trivial means that q → (p → q). Another method of proof is the proof by contradiction which is done by assuming that ¬(premise) is true which will be equivalent to p ∧ ¬q and showing that there is a contradiction.
 
 # Week 5
+This week, we continued the lesson about contradiction. In class, we proved the statement "√2 is irrational." by contradiction. Also, I learned another example statement which can be proven by contraposition. This statement is "If a^2 is even, thena is also even." Furthermore, there were more examples on proof by contradiction and contraposition. I also learned another form of proof, which is the proof by equivalence. The example conditional statement was r ↔ s, "n is even iff n^2 is even." It was done by proving that r → s, "If n is even, then n^2 is also even." and s → r, "If n^2 is even, then n is also even.". r → s was proved by direct proof and s → r was proved by contraposition. Both of these processes were proofs of r ↔ s.
 
+# Week 6
+The lesson on proof by equivalence was continued and biconditional statements were given as examples. Mathematical Induction was also introduced. The first step was the basis step, which is to show  that P(1) or P(0) is true. The second step is using direct proof.
