@@ -1,6 +1,8 @@
 # dismathportfolio-trishadevera
 dismathportfolio-trishadevera created by Classroom for GitHub
 
+# DISMATH PORTFOLIO
+
 # Week 1
 In this week, I was introduced to logic and proofs. I learned that a proposition is a statement or a declarative sentence that is either true or false, but not both. I also learned about the different logical connectives such as Negation, Conjunction, Disjunction, Exclusive Or, Conditional, and Biconditional and their corresponding symbol and usage which are shown on the table below:
 
@@ -57,4 +59,7 @@ In this week, the methods of constructing proofs are continued. Proof by contrap
 This week, we continued the lesson about contradiction. In class, we proved the statement "√2 is irrational." by contradiction. Also, I learned another example statement which can be proven by contraposition. This statement is "If a^2 is even, thena is also even." Furthermore, there were more examples on proof by contradiction and contraposition. I also learned another form of proof, which is the proof by equivalence. The example conditional statement was r ↔ s, "n is even iff n^2 is even." It was done by proving that r → s, "If n is even, then n^2 is also even." and s → r, "If n^2 is even, then n is also even.". r → s was proved by direct proof and s → r was proved by contraposition. Both of these processes were proofs of r ↔ s.
 
 # Week 6
-The lesson on proof by equivalence was continued and biconditional statements were given as examples. Mathematical Induction was also introduced. The first step was the basis step, which is to show  that P(1) or P(0) is true. The second step is using direct proof.
+The lesson on proof by equivalence was continued and biconditional statements were given as examples. Mathematical Induction was also introduced. The first step was the basis step, which is to show  that P(1) or P(0) is true. The second step is using direct proof, which is don by assuming that P(k) is true and showing that P(k+1) is true. Recursion was also introduced. The steps done for recursion consists of the basis step, which is specifying the value of a function at zero, and the recursive step, which is giving a rule for finding its value at an integer from its values at smaller integers. Examples were given and one of them is this: Given f(0)=3 and a function rule f(n+1)=2f(n)+3, find f(1), f(2), and f(3). The answers were obtained by substituting f(0)=3 to to n and obtaining f(1) and using the answer to get f(2) and so on. Another topic introduced in this week was recursive algorithm. It is similar to recursion but integrated to a program. Program correctness and partial correctness were also discussed. There were both programs used to confirm that the final assertion is valid. Power series was also included in this week's lessons. It was based on geometric series but the equation is f(x)=1/(1-x)
+
+# Week 7
+This week, Introduction to Set Theory was the lesson. I learned about the definition of set, which is an unordered collection of distinct objects. This means that the order of elements in a set does not matter as long as they are the same elements. I also learned about set bulder notation which is definition for set that uses symbols. I learned that a union of two sets A and B (A U B) is all the elements of A and B combined and their intersection (A∩B) is the element/s which is/are common to A and B. Power Set was also introduced and it is the set of all subsets. To get the cardinality of subsets in a set is given by: 2^n, where n is the number of elements. 
