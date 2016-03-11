@@ -66,3 +66,27 @@ This week, Introduction to Set Theory was the lesson. I learned about the defini
 
 # Week 8
 The lesson for this week was about the function. I learned that there are three elements in a function which are known as the domain, codomain, and range. Domain is/are given values in a function. Codomain can also be given values but can also be values which are assigned or paired to the domain. Range are actually occuring/assigned values for the domain. I also leanrend that there are different types of function. The first one is the One-to-One function (Injective). It is a function that never assign the same value to two different domain elements. Ex. (a,b), (c,d), (e,f). The next type is the onto function which has equal range and codomain. Ex. (1,3),  (2,4), (2,5). The next type is the One-to-One correspondence (Bijection). It is a function that is both one-to-one and onto. Ex. (5,6), (7,8), (9,10). (NOTE: Not all one-to-one is onto and not all onto is one-to-one.) Furthermore, I learned that y=√x is not a function because it gives two domain for just one range but y=sqrt (x) in programming is a function because it is limited to positive integers. Another lesson discussed in this week was about the Algorithm which is a finite set of precise instructions for performing a computation that is similar to programming.
+
+# Week 9
+In this week, one of the topics was about Binary Search Algorithm. It is a search for a certain location of a value from a list of elements arranged in ascending order. One of the ways to write its algorithm is this:
+
+Procedure: Binary Search(
+Input: x-searched element
+       {a1, a2, ..., ai, ..., an}
+Output: location, loc)
+i=1;
+j=n;
+
+while(i<j){
+  mid=[(i+j)/2]
+  if(x>amid)
+    i=mid+1;
+  else
+    j=mid;
+    }
+if x=a, then loc=i
+else loc=-1
+
+The algorithm means that the first thing to do is compare the first (i) and last element (j). While the first element is less than the last, the assignment for middle term is the sum of the first and last element divided by 2 which is covered by the while loop. Still included in the while loop is the if-else statement which suggests that if the element searched (x) is greater than the current middle term, "i" will be updated, the comparison will go on, and mid will also be updated but when x is greater than the current middle term,j will be updated. The termination will be done when process stop satisfying the while loop. 
+
+Another lesson in this week was about the sorting algorithm. The first kind is called the bubble sort and the second one is the insertion sort. I also learned about greedy algorithm and growth of functions.
