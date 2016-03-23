@@ -89,4 +89,21 @@ else loc=-1
 
 The algorithm means that the first thing to do is compare the first (i) and last element (j). While the first element is less than the last, the assignment for middle term is the sum of the first and last element divided by 2 which is covered by the while loop. Still included in the while loop is the if-else statement which suggests that if the element searched (x) is greater than the current middle term, "i" will be updated, the comparison will go on, and mid will also be updated but when x is greater than the current middle term,j will be updated. The termination will be done when process stop satisfying the while loop. 
 
-Another lesson in this week was about the sorting algorithm. The first kind is called the bubble sort and the second one is the insertion sort. I also learned about greedy algorithm and growth of functions.
+Another lesson in this week was about the sorting algorithm. The first kind is called the bubble sort and the second one is the insertion sort. I also learned about greedy algorithm and growth of functions. Greedy Algorithm can be used to compute the minimum number of coins that can be used to attain certain amount of money. 
+
+# Week 10
+The continuation for the lesson on Growth of Functions was continued this week. I learned about Big-O, Big-Omega, and Big-Theta Notations. A big-o of a certain function means that is is an upper bound of another function. For example, the statement "x^2+2x+1 is O(x^2)" states that the function x^2 is an upper bound of x^2+2x+1. This can be proven by providing witnesses "c" and "k" such that f(x)=x^2+2x+1 <= C[g(x)=x^2] whenever x>k. On the other hand, Big-Omega (Ω) is the reverse of Big-O, which means that f(x) >= Cg(x) whenever x>k. Big Theta is the combination of the two first notations. A certain function f(x) is θ[g(x)] when there are witnesses c and k such that f(x) is both O[g(x)] and Ω[g(x)]. 
+
+The next lesson was about Algorithm Time Complexity which is denoted by the table below                                               
+| Complexity  |   Terminology  |
+|:-----------:|:--------------:|
+| (1) | Constant  complexity  |
+| (log n) | Logarithmic complexity |
+| (n) | Linear complexity |
+| (n log n) | Linearithmic complexity |
+| (n^b) | Polynomial complexity |
+| (b^n), where b > 1 | Exponential complexity |
+| (n!) | Factorial complexity |
+
+Determining the complexity of an algorithm is first done by counting the number of comparisons in the program in terms of "n". Comparisons on each loop are assigned as "n" and the other comparisons are just additions. After determining the number of comparisons, we can now determine the complexity. 
+The lessons for this week also include Division and Modulo Operator and Cryptology. Division operator is denoted by the statement  "q=a div d" where a is the dividend, d is the divisor, and q is the quotient. Modulo operator is the statement "r=a mod d" a is the dividend, d is the divisor, and r is the remainder. You can use these two equations to determine the missing element. The last lesson this week, which is Cryptology, is the study of secret messages. The class discussed on of the methods called Caesar Cipher that is made by shifting each letter, three letters forward in the alphabet. Example: The word "MATH" would become "PDWK". However, when the letter is "Z", there would be no letter after it which means we would be using modulo operaor to determine the equivalnt letter of "Z". Since "Z" is the 25th letter, we would add 3 which would be equal to 28 and we could use 28 mod 26=2 to determine the letter. The equivalent Caesar Cipher for "Z" is "C" because, A=0, B=1, C=2.
